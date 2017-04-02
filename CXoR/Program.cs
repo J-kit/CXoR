@@ -21,7 +21,7 @@ namespace CXoR
             int[] erg = new int[mval.Length];
 
             for (int i = 0; i < mval.Length; i++)
-            {
+            {//
                 erg[i] = mval[i] ^ mkey[i];
             }
 
